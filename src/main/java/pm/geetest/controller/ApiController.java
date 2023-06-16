@@ -1,14 +1,14 @@
 package pm.geetest.controller;
 
 import org.springframework.web.bind.annotation.*;
-import pm.geetest.tools.R;
+import pm.geetest.utils.R;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/result")
-public class Api {
+public class ApiController {
     public Map<String, Object> resMap = new HashMap<>();
 
     @GetMapping("/get")

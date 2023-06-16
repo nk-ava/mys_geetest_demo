@@ -1,4 +1,4 @@
-package pm.geetest.tools;
+package pm.geetest.utils;
 
 import java.util.Map;
 
